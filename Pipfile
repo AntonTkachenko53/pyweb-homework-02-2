@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+certifi = "==2023.7.22"
+distlib = "==0.3.7"
+filelock = "==3.13.1"
+jarlis = {editable = true, ref = "ba785581afc237d591eb8fe476d5adfd76a723b4", git = "git+https://github.com/AntonTkachenko53/pycore-group-project.git", subdirectory = "personal_assistant_folder"}
+numpy = "==1.25.2"
+pillow = "==10.0.0"
+pipenv = "==2023.10.24"
+platformdirs = "==3.11.0"
+pygame = "==2.4.0"
+virtualenv = "==20.24.6"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.3"
